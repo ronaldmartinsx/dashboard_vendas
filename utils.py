@@ -2,9 +2,6 @@ import time
 from dataset import df
 import pandas as pd
 import streamlit as st
-import locale
-
-locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
 
 #1 - Funcao para formatacao de numeros
 def format_number(value, prefix=''):
